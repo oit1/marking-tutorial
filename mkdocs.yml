@@ -1,5 +1,15 @@
 site_name: Система маркировки товаров
 
+nav:
+    - 'Главная': 'index.md'
+    - 'Производство':
+      - 'Каталог продукции': './productions/products.md'
+    - 'Системы управления':
+      - 'Фоновые задания': './systems/tasks.md'
+      - 'SimpleUI': './systems/simpleui.md'
+    - 'Уведомления':
+      - 'Телеграм': './notifications/telegram.md'
+
 theme:
   name: material
   features:
